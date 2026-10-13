@@ -1,33 +1,48 @@
 # Dr. Maya Reynolds | Clinical Psychology Practice
 
-> A bespoke, high-performance web experience designed for a Santa Monica-based clinical psychologist, focusing on anxiety, trauma, and burnout recovery.
+A clean and responsive homepage built for Dr. Maya Reynolds, a clinical psychologist based in Santa Monica, CA specializing in anxiety, trauma, and burnout.
 
 ![Desktop View](public/images/desktop-preview.png)
 
-## 🔗 Live Project & Demo
-- **Live Website:** [Insert Vercel/Netlify Link Here]
-- **Client Demo (Video Walkthrough):** [Insert Loom Link Here]
+## 🔗 Links
+- **Live Site:** https://dr-maya-psychology.netlify.app
+- **Video Walkthrough:** [Insert Loom Link Here]
+- **GitHub:** https://github.com/itsvivekdev/dr-maya-reynolds-therapy
 
-## 🧠 Project Overview
-This project is a complete front-end architecture and redesign built for **Grow My Therapy**. The objective was to transform a standard template into a premium, custom-tailored digital practice for Dr. Maya Reynolds, using her clinical profile as the single source of truth for both design and copywriting.
+---
 
-## 🎨 Design System & UI/UX
-- **Theme (Santa Monica Dusk):** Transitioned away from generic earthy tones to a custom, highly intentional color palette featuring **Deep Indigo (Ink)**, **Soft Blush (Dusk)**, and **Coastal Mauve**. This creates a calming, premium, and trustworthy environment for potential clients.
-- **Profile-Driven Copywriting:** All typography and copy were rewritten to reflect Dr. Maya’s exact tone. Integrated local SEO keywords (Santa Monica, California Telehealth) seamlessly into the narrative without compromising the user experience.
-- **Custom "Our Office" Experience:** Architected and integrated a brand-new physical space showcase section. This blends flawlessly with the site's existing spacing, grid system, and typography to build immediate client trust before they even book a session.
-- **Pixel-Perfect Cloning:** Strictly adhered to the original grid structures, responsive breakpoints, and spacing guidelines using advanced Tailwind CSS configurations.
+## 📌 Project Overview
+This project was built as part of the Stage 2 assignment for **Grow My Therapy**. 
+
+The goal was twofold:
+1. Recreate the structure, spacing, and mobile responsiveness of the reference template (`conejovalleycounseling.com`).
+2. Redesign the site from scratch for Dr. Maya Reynolds, using her provided profile as the single source of truth for the copy, images, and overall vibe.
+
+---
+
+## 🎨 What I Did
+
+- **Color Palette:** Moved away from the original earthy cream/teal theme to a calmer Pacific Coast palette—deep navy for readability, soft mist backgrounds, and subtle lavender/mauve accents.
+- **Copywriting & SEO:** Rewrote all headlines and text in Dr. Maya’s voice. Naturally included her core specialties (Anxiety, EMDR, Burnout) and location keywords (*Santa Monica*, *California Telehealth*) without keyword stuffing.
+- **New "Our Office" Section:** Added a dedicated office space section (which was not in the original template) using photos and office details from her profile.
+- **Layout & Mobile Menu:** Kept the original layout structure intact, ensuring the mobile slide-over drawer and desktop navigation work smoothly.
 
 ![Mobile Responsive View](public/images/mobile-preview.png)
 
-## 🛠️ Technical Architecture
+---
+
+## 🛠 Tech Stack
+
 - **Framework:** Next.js (App Router)
-- **Styling:** Tailwind CSS (Custom CSS Variables for scalable theming)
-- **Typography:** Optimized Google Fonts (`next/font/google`) featuring Cormorant Garamond, Mulish, and Alex Brush.
-- **Performance:** Implemented Next.js best practices including server-side rendering setup and hydration optimizations.
+- **Styling:** Tailwind CSS
+- **Fonts:** Cormorant Garamond, Mulish, and Alex Brush (via `next/font/google`)
+- **Icons:** Lucide React
+- **Deployment:** Netlify
+
+---
 
 ## 🚀 Running Locally
 
-Clone the project and install dependencies:
-
-```bash
-npm install
+1. Clone the repo:
+   ```bash
+   git clone [https://github.com/itsvivekdev/dr-maya-reynolds-therapy.git](https://github.com/itsvivekdev/dr-maya-reynolds-therapy.git)
