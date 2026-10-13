@@ -1,26 +1,24 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --font-sans: var(--font-mulish), sans-serif;
+  --font-serif: var(--font-cormorant), serif;
+  --font-script: var(--font-alex-brush), cursive;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Santa Monica Dusk: Soft Blush, Deep Indigo & Coastal Clay */
+  --color-fog: #FBF7F4;   /* page bg */
+  --color-mist: #FFFFFF;  /* white sections */
+  --color-dusk: #F3E8E2;  /* contrast sections */
+  --color-ink: #2B2F4A;   /* headings, buttons */
+  --color-body: #5A5F78;  /* paragraphs */
+  --color-mauve: #B4644C; /* hover accents */
+  --color-tide: #5F7691;  /* footer bar */
+  --color-line: #E8DFDA;  /* subtle borders */
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-fog);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
 }

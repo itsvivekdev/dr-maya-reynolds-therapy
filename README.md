@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dr. Maya Reynolds | Clinical Psychology Practice
 
-## Getting Started
+> A bespoke, high-performance web experience designed for a Santa Monica-based clinical psychologist, focusing on anxiety, trauma, and burnout recovery.
 
-First, run the development server:
+![Desktop View](public/images/desktop-preview.png)
+
+## 🔗 Live Project & Demo
+- **Live Website:** [Insert Vercel/Netlify Link Here]
+- **Client Demo (Video Walkthrough):** [Insert Loom Link Here]
+
+## 🧠 Project Overview
+This project is a complete front-end architecture and redesign built for **Grow My Therapy**. The objective was to transform a standard template into a premium, custom-tailored digital practice for Dr. Maya Reynolds, using her clinical profile as the single source of truth for both design and copywriting.
+
+## 🎨 Design System & UI/UX
+- **Theme (Santa Monica Dusk):** Transitioned away from generic earthy tones to a custom, highly intentional color palette featuring **Deep Indigo (Ink)**, **Soft Blush (Dusk)**, and **Coastal Mauve**. This creates a calming, premium, and trustworthy environment for potential clients.
+- **Profile-Driven Copywriting:** All typography and copy were rewritten to reflect Dr. Maya’s exact tone. Integrated local SEO keywords (Santa Monica, California Telehealth) seamlessly into the narrative without compromising the user experience.
+- **Custom "Our Office" Experience:** Architected and integrated a brand-new physical space showcase section. This blends flawlessly with the site's existing spacing, grid system, and typography to build immediate client trust before they even book a session.
+- **Pixel-Perfect Cloning:** Strictly adhered to the original grid structures, responsive breakpoints, and spacing guidelines using advanced Tailwind CSS configurations.
+
+![Mobile Responsive View](public/images/mobile-preview.png)
+
+## 🛠️ Technical Architecture
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS (Custom CSS Variables for scalable theming)
+- **Typography:** Optimized Google Fonts (`next/font/google`) featuring Cormorant Garamond, Mulish, and Alex Brush.
+- **Performance:** Implemented Next.js best practices including server-side rendering setup and hydration optimizations.
+
+## 🚀 Running Locally
+
+Clone the project and install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
