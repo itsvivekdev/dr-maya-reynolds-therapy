@@ -1,4 +1,4 @@
-'use client';
+
 
 const SERVICES = [
   {
@@ -24,7 +24,7 @@ const SERVICES = [
 export default function WhatBringsYouHere() {
   return (
     <section className="bg-mist">
-      <div className="mx-auto max-w-[1440px] px-6 py-16 lg:py-24 lg:pl-20 lg:pr-[68px]">
+      <div className="mx-auto max-w-360 px-6 py-16 lg:py-24 lg:pl-20 lg:pr-17">
       
         <h2 className="mb-12 font-serif text-4xl font-light leading-[1.2] text-ink lg:mb-16 lg:text-[50px]">
           What brings you <span className="font-script text-[1.4em] italic text-mauve">here</span>
